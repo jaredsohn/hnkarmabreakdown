@@ -30,5 +30,7 @@ This code is distributed under the MIT license (although credit is appreciated).
 Appreciated.  
 
 Gittip: http://www.gittip.com/jaredsohn.
+
 Flattr: https://flattr.com/profile/jaredsohn
+
 PayPal: jared.sohn@gmail.com
