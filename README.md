@@ -4,7 +4,11 @@ This is a Chrome extension that shows what portion of a user's karma comes from 
 
 ## Installation
 
-Clone the repo and point Chrome at the folder.  Alternatively, it will be available in the Google Web Store soon (and linked to from here.)
+You can get it in the Chrome Web Store here:
+
+https://chrome.google.com/webstore/detail/hacker-news-karma-details/mffigdmfbplhmdmbgncgncndjngcdlni?authuser=1
+
+Alternatively, clone the repo and point Chrome at the folder.
 
 
 ## Usage
