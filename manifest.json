@@ -1,11 +1,11 @@
 {
 
-  "name": "HN Karma Details",
+  "name": "Hacker News Karma Details",
   "version": "0.1",
   "description": "Show Hacker News karma details in user info.",
-  "icons": { "16": "icons/icon16.png",
-             "48": "icons/icon48.png",
-            "128": "icons/icon128.png" },
+  "icons": { "16": "icons/icon.png",
+             "48": "icons/icon-48.png",
+            "128": "icons/icon-128.png" },
   "default_locale": "en",
 
   //============================================================================
