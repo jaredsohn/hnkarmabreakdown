@@ -41,4 +41,4 @@ Gittip: http://www.gittip.com/jaredsohn.
 
 Flattr: https://flattr.com/profile/jaredsohn
 
-PayPal: jared.sohn@gmail.com
+PayPal: jared dot sohn at gmail.com
