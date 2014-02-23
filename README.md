@@ -27,4 +27,8 @@ This code is distributed under the MIT license (although credit is appreciated).
 
 ## Donations
 
-Appreciated.  Gittip: http://www.gittip.com/jaredsohn.
+Appreciated.  
+
+Gittip: http://www.gittip.com/jaredsohn.
+Flattr: https://flattr.com/profile/jaredsohn
+PayPal: jared.sohn@gmail.com
