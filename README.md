@@ -16,9 +16,9 @@ On Hacker News, click on a user profile.  At the moment, information is shown in
 
 This code is distributed under the MIT license (although credit is appreciated).  It makes use of the following code:
 
-* Chrome extension started via Chrome-boilerplate [https://github.com/mahemoff/chrome-boilerplate.]
+* Chrome extension started via Chrome-boilerplate (https://github.com/mahemoff/chrome-boilerplate.)
 
-* Icons came from the HackerNew extension [https://github.com/tommoor/HackerNew].
+* Icons came from the HackerNew extension (https://github.com/tommoor/HackerNew).
 
 * Uses Algolia's HN Search API (http://hn.algolia.com/api)
 
