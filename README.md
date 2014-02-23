@@ -22,7 +22,7 @@ This code is distributed under the MIT license (although credit is appreciated).
 
 * Uses Algolia's HN Search API (http://hn.algolia.com/api)
 
-* Thanks to the Launch Hackathon (hackathon.launch.co/) for the energy to build this.
+* Thanks to the Launch Hackathon (http://www.hackathon.launch.co/) for the energy to build this.
 
 
 ## Donations
