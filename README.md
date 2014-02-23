@@ -1,6 +1,6 @@
 # Hacker News Karma Details
 
-This is a Chrome extension that separates out karma into comments and article submissions.
+This is a Chrome extension that separates out karma on Hacker News into that acquired from comments and that acquired from article submissions.
 
 ## Usage
 
