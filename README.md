@@ -2,6 +2,11 @@
 
 This is a Chrome extension that shows what portion of a user's karma comes from comments and what portion comes from article submissions.
 
+## Installation
+
+Clone the repo and point Chrome at the folder.  Alternatively, it will be available in the Google Web Store soon (and linked to from here.)
+
+
 ## Usage
 
 Go to Hacker News, and click on a user profile.  Right after you see the user's total amount of karma, it will show you the raw karma totals for article submissions and comments as well as a percentage for comment karma.
