@@ -20,7 +20,7 @@ This code is distributed under the MIT license (although credit is appreciated).
 
 * Icons came from the HackerNew extension [https://github.com/tommoor/HackerNew].
 
-* Uses Algolia's HN Search API (http://hn.algolia.com)
+* Uses Algolia's HN Search API (http://hn.algolia.com/api)
 
 
 ## Donations
