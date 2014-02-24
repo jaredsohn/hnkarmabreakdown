@@ -18,20 +18,16 @@ Go to Hacker News, and click on a user profile.  Right after you see the user's 
 
 ## FAQ
 
-Q: Why do the numbers look off for popular users?
-
-A: A single API call only gets 1000 comments/article submissions.  This should be fixable if one pages through the data based on date/time, but at the moment the author is tired after staying up all night to build this.
-
-
 Q: Why does no data show up?
 
-A: Algolia's HN API is limited to 1000 hits per hour (regardless of if you access it via this extension or through other sources.)  This extension only uses it once every time you view user info, so if this is a problem it is likely due to other software.
+A: It could just be slow.  If a user has over 1000 comments or article submissions, it requires making multiple requests.  Because the paging is done based on timestamp, they must be downloaded serially.
+
+You also might have run into Algolia's HN API limit of 1000 requests per hour via this or other software.  This extension only makes requests when you visit user pages so you are unlikely to run into this problem if you only access the API through it.
 
 
 Q: Why doesn't submission karma + comment karma === total karma?
 
-A: People delete messages, both with positive and with negative karma.  Also, everyone gets 1 karma for having an account which is not included in the totals.  Finally, this will happen with users with large amounts of karma due to the issue expressed in the first question.
-
+A: People delete messages, both with positive and with negative karma.  Also, everyone gets 1 karma for having an account which is not included in the totals.  There may be other reasons (Are polls treated separately?  Does the API of karma for really old posts? etc.) that are still being investigated.)
 
 
 ## Credits
