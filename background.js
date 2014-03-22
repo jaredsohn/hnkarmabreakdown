@@ -1,5 +1,3 @@
-var data = {};
-
 // From http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 // Modified to work on any url string (instead of current location)
 function getParameterByName(url, name) {
@@ -16,15 +14,13 @@ function onRequest(request, sender, sendResponse) {
     var hnuser = require('hnuser');
     hnuser.hnuser(username, function(hnuser_data)
     {
-        data = hnuser_data; // allow viewing it in console
-
         console.log(hnuser_data);
 
         var stats = {};
         stats.username = username;
-        stats.storyKarma = hnuser_data.story_karma;
-        stats.commentKarma = hnuser_data.comment_karma;
-        stats.percentCommentKarma = (stats.commentKarma / (stats.commentKarma + stats.storyKarma) * 100).toFixed() + "%";
+        stats.story_karma = hnuser_data.story_karma;
+        stats.comment_karma = hnuser_data.comment_karma;
+        stats.percent_comment_karma = (stats.comment_karma / (stats.comment_karma + stats.story_karma) * 100).toFixed() + "%";
 
         chrome.tabs.sendMessage(tabid, stats, function(response) 
         {

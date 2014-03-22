@@ -1,6 +1,4 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-var data = {};
-
 // From http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 // Modified to work on any url string (instead of current location)
 function getParameterByName(url, name) {
@@ -17,15 +15,13 @@ function onRequest(request, sender, sendResponse) {
     var hnuser = require('hnuser');
     hnuser.hnuser(username, function(hnuser_data)
     {
-        data = hnuser_data; // allow viewing it in console
-
         console.log(hnuser_data);
 
         var stats = {};
         stats.username = username;
-        stats.storyKarma = hnuser_data.story_karma;
-        stats.commentKarma = hnuser_data.comment_karma;
-        stats.percentCommentKarma = (stats.commentKarma / (stats.commentKarma + stats.storyKarma) * 100).toFixed() + "%";
+        stats.story_karma = hnuser_data.story_karma;
+        stats.comment_karma = hnuser_data.comment_karma;
+        stats.percent_comment_karma = (stats.comment_karma / (stats.comment_karma + stats.story_karma) * 100).toFixed() + "%";
 
         chrome.tabs.sendMessage(tabid, stats, function(response) 
         {
