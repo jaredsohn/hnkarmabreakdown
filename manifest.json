@@ -16,7 +16,7 @@
   "content_security_policy": "script-src 'self' https://hn.algolia.com; object-src 'none'",
 
   "background": {
-      "scripts": ["background.js"]
+      "scripts": ["bundle.js"]
     },
 
   "content_scripts": [

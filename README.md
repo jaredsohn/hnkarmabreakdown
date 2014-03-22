@@ -33,6 +33,20 @@ Q: Why doesn't submission karma + comment karma === total karma?
 A: People delete messages, both with positive and with negative karma.  Also, everyone gets 1 karma for having an account which is not included in the totals.  Finally, this will happen with users with large amounts of karma due to the issue expressed in the first question.
 
 
+## Build instructions
+
+This extension requires extra build instructions because it shares code with the hnuser npm module.
+
+1. Check out this repo
+
+2. Run
+	npm install hnuser request-browser browserify
+
+3. Modify node_modules/hnuser/lib/hnuser.js to require 'request-browser' instead of 'request'.
+
+4. Run 
+	browserify background.js -o bundle.js
+
 
 ## Credits
 
@@ -51,8 +65,11 @@ This code is distributed under the MIT license (although credit is appreciated).
 
 Appreciated.  
 
+Bitcoin: bitcoin:1NhTCJF9owKLxXhizSd57GiYWkBELFq2Jc
+
 Gittip: http://www.gittip.com/jaredsohn.
 
 Flattr: https://flattr.com/profile/jaredsohn
 
 PayPal: jared dot sohn at gmail.com
+
