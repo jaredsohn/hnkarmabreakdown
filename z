@@ -1,1 +1,3 @@
 browserify background.js -o bundle.js
+rm ext.zip
+zip ext.zip *
