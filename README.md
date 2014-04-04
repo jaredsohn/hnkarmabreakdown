@@ -6,7 +6,7 @@ This is a Chrome extension that shows what portion of a user's karma comes from 
 
 You can get it in the Chrome Web Store here:
 
-https://chrome.google.com/webstore/detail/hacker-news-karma-details/mffigdmfbplhmdmbgncgncndjngcdlni?authuser=1
+https://chrome.google.com/webstore/detail/hacker-news-karma-details/mffigdmfbplhmdmbgncgncndjngcdlni
 
 Alternatively, clone the repo to disk and point Chrome at the folder when adding an extension in developer mode.
 
@@ -54,8 +54,9 @@ This code is distributed under the MIT license (although credit is appreciated).
 
 * Uses Algolia's HN Search API (http://hn.algolia.com/api)
 
-* Thanks to the Launch Hackathon (http://www.hackathon.launch.co/) for the energy to build this.
+* Thanks to the Launch Hackathon (http://www.hackathon.launch.co/) for the initial energy to build this.
 
+* Browserify (https://github.com/substack/node-browserify) made it easy share code with the npm module hnuser (http://www.github.com/jaredsohn/hnuser).
 
 ## Donations
 
