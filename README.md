@@ -62,11 +62,4 @@ This code is distributed under the MIT license (although credit is appreciated).
 
 Appreciated.  
 
-Bitcoin: bitcoin:1NhTCJF9owKLxXhizSd57GiYWkBELFq2Jc
-
-Gittip: http://www.gittip.com/jaredsohn.
-
-Flattr: https://flattr.com/profile/jaredsohn
-
-PayPal: jared dot sohn at gmail.com
-
+http://pages.cs.wisc.edu/~sohn/donate/index.html
